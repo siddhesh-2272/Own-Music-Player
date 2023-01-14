@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    height: 7vh;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    padding: 9px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.logo img {
+    display: flex;
+    height: 35px;
+    /* padding: 0 2vh 0 0; */
+}
+
+.logo {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 1vh 0 0;
+    margin: 1vw;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.contaner {
+    min-height: 65vh;
+    background-color: black;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+
+    /* justify-content: center; */
+    width: 60%;
+    margin: 9px auto;
+    border-radius: 30px;
+    padding: 20px;
+    background-image: url('/bkg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    /* background-size: cover; */
+}
+
+.bottom {
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+
+#progressbar {
+    width: 12vw;
+    /* ground-color: rgb(255, 0, 195); */ 
+    cursor: pointer;
+}
+
+.icons {
+    color: aliceblue;
+    margin-top: 1vh;
+
+}
+
+.icons i {
+    cursor: pointer;
+    margin: 0 1vw;
+}
+
+
+.songs {
+    padding: 10px 0;
+}
+
+.songItem {
+    display: flex;
+    height: 30px;
+    /* width: 80%; */
+    background-color: black;
+    color: white;
+    margin: 12px 0;
+    padding: 10px 5px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.songItem i {
+    padding: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.songItem img {
+    height: 49px;
+    width: 49px;
+    margin: 0 2px;
+    border-radius: 50px;
+}
+
+.songItem-contaner {
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.song-info {
+    position: absolute;
+    left: 0vw;
+    margin: 1px;
+}
+
+.song-info img {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background-color:wheat;
+
+        
+    }
+    
+
+.m{
+   
+   position: relative;
+  
+    left: 35vw;
+   
+}
+#progressbar {
+    width: 110px;
+    /* ground-color: rgb(255, 0, 195); */ 
+    cursor: pointer;
+}
+}
